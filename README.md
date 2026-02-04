@@ -1,6 +1,6 @@
 # ACV Unity & Development – Modern Website
 
-A modern, responsive website for the **Afghan Cultural Association Unity & Development** in Leiden, Netherlands. Built as both a **static site** (Cloudflare Pages ready) and a **WordPress theme**.
+A modern, responsive website for the **Afghaanse Culturele Vereniging Unity & Development** in Leiden, Netherlands. Built as both a **static site** (Cloudflare Pages ready) and a **WordPress theme**.
 
 ---
 
