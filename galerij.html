@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galerij van ACV Unity &amp; Development – foto's van evenementen, activiteiten en gemeenschap monienten.">
+  <title>Galerij | ACV Unity &amp; Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><div class="logo-icon">ACV</div><div class="logo-text">Unity &amp; Development<span>Afghan Cultural Association</span></div></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open navigatie"><span></span><span></span><span></span></button>
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="over.html">Over Ons</a></li><li><a href="bestuur.html">Bestuur</a></li><li><a href="anbi.html">ANBI</a></li><li><a href="galerij.html" class="active">Galerij</a></li><li><a href="verslagen.html">Verslagen</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="lang-switcher"><button class="lang-btn active" title="Nederlands">NL</button><button class="lang-btn" title="Dari">دری</button><button class="lang-btn" title="Pashto">پ</button></div>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <p class="breadcrumb"><a href="index.html">Home</a><span class="sep">›</span>Galerij</p>
+    <h1>Galerij</h1>
+    <p>Mooie monienten uit onze gemeenschap – evenementen, activiteiten en vrijwilliger-werk.</p>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section">
+  <div class="container">
+    <!-- filter tabs -->
+    <div class="gallery-filters">
+      <button class="gallery-filter active" data-cat="all">Alles</button>
+      <button class="gallery-filter" data-cat="events">Evenementen</button>
+      <button class="gallery-filter" data-cat="sports">Sport</button>
+      <button class="gallery-filter" data-cat="youth">Jeugd</button>
+      <button class="gallery-filter" data-cat="volunteer">Vrijwilligers</button>
+    </div>
+
+    <div class="gallery-grid">
+      <!-- events -->
+      <div class="gallery-item animate-on-scroll" data-cat="events">
+        <div class="gallery-placeholder" style="background:linear-gradient(145deg,#d97706,#f59e0b)"></div>
+        <div class="gallery-overlay"><span class="gallery-label">Eid al-Fitr 2023</span></div>
+      </div>
+      <div class="gallery-item animate-on-scroll" data-cat="events" style="transition-delay:.06s">
+        <div class="gallery-placeholder" style="background:linear-gradient(145deg,#dc2626,#fb7185)"></div>
+        <div class="gallery-overlay"><span class="gallery-label">Nowruz Viering 2023</span></div>
+      </div>
+      <div class="gallery-item animate-on-scroll" data-cat="events" style="transition-delay:.12s">
+        <div class="gallery-placeholder" style="background:linear-gradient(145deg,#4f46e5,#818cf8)"></div>
+        <div class="gallery-overlay"><span class="gallery-label">Culturele Avond</span></div>
+      </div>
+      <div class="gallery-item animate-on-scroll" data-cat="events" style="transition-delay:.18s">
+        <div class="gallery-placeholder" style="background:linear-gradient(145deg,#be185d,#fb7185)"></div>
+        <div class="gallery-overlay"><span class="gallery-label">Nieuwjaarsviering</span></div>
+      </div>
+
+      <!-- sports -->
+      <div class="gallery-item animate-on-scroll" data-cat="sports" style="transition-delay:.24s">
+        <div class="gallery-placeholder" style="background:linear-gradient(145deg,#2563eb,#60a5fa)"></div>
+        <div class="gallery-overlay"><span class="gallery-label">Volleybal Toernooi</span></div>
+      </div>
+      <div class="gallery-item animate-on-scroll" data-cat="sports" style="transition-delay:.30s">
+        <div class="gallery-placeholder" style="background:linear-gradient(145deg,#0284c7,#7dd3fc)"></div>
+        <div class="gallery-overlay"><span class="gallery-label">Sport Dag 2022</span></div>
+      </div>
+
+      <!-- youth -->
+      <div class="gallery-item animate-on-scroll" data-cat="youth" style="transition-delay:.36s">
+        <div class="gallery-placeholder" style="background:linear-gradient(145deg,#7c3aed,#a78bfa)"></div>
+        <div class="gallery-overlay"><span class="gallery-label">Jongeren Programma</span></div>
+      </div>
+      <div class="gallery-item animate-on-scroll" data-cat="youth" style="transition-delay:.42s">
+        <div class="gallery-placeholder" style="background:linear-gradient(145deg,#6d28d9,#c4b5fd)"></div>
+        <div class="gallery-overlay"><span class="gallery-label">Kinderen Festival</span></div>
+      </div>
+      <div class="gallery-item animate-on-scroll" data-cat="youth" style="transition-delay:.48s">
+        <div class="gallery-placeholder" style="background:linear-gradient(145deg,#a855f7,#e9d5ff)"></div>
+        <div class="gallery-overlay"><span class="gallery-label">Nederlandse Taalles</span></div>
+      </div>
+
+      <!-- volunteer -->
+      <div class="gallery-item animate-on-scroll" data-cat="volunteer" style="transition-delay:.54s">
+        <div class="gallery-placeholder" style="background:linear-gradient(145deg,#16a34a,#4ade80)"></div>
+        <div class="gallery-overlay"><span class="gallery-label">World Cleanup Day 2021</span></div>
+      </div>
+      <div class="gallery-item animate-on-scroll" data-cat="volunteer" style="transition-delay:.60s">
+        <div class="gallery-placeholder" style="background:linear-gradient(145deg,#059669,#34d399)"></div>
+        <div class="gallery-overlay"><span class="gallery-label">Vrijwilliger Dag</span></div>
+      </div>
+      <div class="gallery-item animate-on-scroll" data-cat="volunteer" style="transition-delay:.66s">
+        <div class="gallery-placeholder" style="background:linear-gradient(145deg,#15803d,#86efac)"></div>
+        <div class="gallery-overlay"><span class="gallery-label">Gemeenschap Opruiming</span></div>
+      </div>
+    </div>
+
+    <!-- note -->
+    <p class="animate-on-scroll" style="text-align:center;margin-top:48px;color:var(--clr-text-lt);font-size:.88rem;transition-delay:.2s">
+      De foto's op deze pagina zijn tijdelijke plaatshouders. Werkelijke foto's worden toegevoegd zodra ze beschikbaar zijn.
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><div class="logo"><div class="logo-icon">ACV</div><div class="logo-text">Unity &amp; Development<span>Afghan Cultural Association</span></div></div><p>We ondersteunen Afghan gemeenschap leden in de Leiden-regio door cultuur, onderwijs en sociale integratie.</p></div>
+      <div><h4>Snelle links</h4><ul><li><a href="over.html">Over Ons</a></li><li><a href="bestuur.html">Bestuur</a></li><li><a href="anbi.html">ANBI</a></li><li><a href="galerij.html">Galerij</a></li></ul></div>
+      <div><h4>Meer</h4><ul><li><a href="verslagen.html">Verslagen</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Contactgegevens</h4><ul><li>Roekenpad 8</li><li>2317KL Leiden</li><li>+31 6 23 98 4003</li><li>Op afspraak</li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2025 ACV Unity &amp; Development. Alle rechten voorbehouden.</span><span>RSIN: 851292677 &nbsp;|&nbsp; ANBI Erkend</span></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

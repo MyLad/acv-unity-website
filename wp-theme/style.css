@@ -1,0 +1,21 @@
+/*
+Theme Name:         ACV Unity & Development
+Theme URI:          https://acv-unity.com
+Author:             ACV Unity & Development
+Author URI:         https://acv-unity.com
+Description:        A modern, clean theme for the Afghan Cultural Association Unity & Development in Leiden. Features multilingual support, responsive mobile-first design, scroll-reveal animations, and a warm cultural aesthetic with deep greens and gold accents.
+Version:            1.0.0
+Requires at least:  5.5
+Tested up to:       6.5
+Requires PHP:       7.2
+License:            GPL v2 or later
+License URI:        https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:        acv-unity
+Tags:               community, cultural, multilingual, responsive, clean
+*/
+
+/*
+ * NOTE: Actual styles live in assets/css/style.css and are enqueued
+ * via functions.php.  This file intentionally contains only the
+ * WordPress theme-header comment block above.
+ */

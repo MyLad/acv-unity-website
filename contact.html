@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Neem contact op met ACV Unity &amp; Development – adres, telefoonnummer en contactformulier.">
+  <title>Contact | ACV Unity &amp; Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><div class="logo-icon">ACV</div><div class="logo-text">Unity &amp; Development<span>Afghan Cultural Association</span></div></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open navigatie"><span></span><span></span><span></span></button>
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="over.html">Over Ons</a></li><li><a href="bestuur.html">Bestuur</a></li><li><a href="anbi.html">ANBI</a></li><li><a href="galerij.html">Galerij</a></li><li><a href="verslagen.html">Verslagen</a></li><li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="lang-switcher"><button class="lang-btn active" title="Nederlands">NL</button><button class="lang-btn" title="Dari">دری</button><button class="lang-btn" title="Pashto">پ</button></div>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <p class="breadcrumb"><a href="index.html">Home</a><span class="sep">›</span>Contact</p>
+    <h1>Neem contact op</h1>
+    <p>We verwelkomen u op afspraak. Stuur een bericht of bel ons.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <!-- LEFT: info + form -->
+      <div>
+        <div class="animate-on-scroll">
+          <h3 style="font-family:var(--font-serif);color:var(--clr-primary);font-size:1.5rem;margin-bottom:28px">Contactgegevens</h3>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact-detail">
+              <strong>Adres</strong>
+              <span>Roekenpad 8<br>2317KL Leiden, Nederland</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="contact-detail">
+              <strong>Telefoonnummer</strong>
+              <span><a href="tel:+31623984003">+31 6 23 98 4003</a></span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="contact-detail">
+              <strong>Bezoektijden</strong>
+              <span>Op afspraak beschikbaar<br>Bel of maak een afspraak</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <div class="contact-form-wrap animate-on-scroll" style="transition-delay:.12s">
+          <h3 style="font-family:var(--font-serif);color:var(--clr-primary);font-size:1.3rem;margin-bottom:18px">Verstuur een bericht</h3>
+          <!-- In WordPress: vervang dit formulier door een Contact Form 7 shortcode -->
+          <!-- In static versie: formulier wordt afgehandeld door JavaScript -->
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cf-name">Naam</label>
+                <input type="text" id="cf-name" name="name" placeholder="Uw naam" required>
+              </div>
+              <div class="form-group">
+                <label for="cf-email">E-mail</label>
+                <input type="email" id="cf-email" name="email" placeholder="uw@email.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cf-subject">Onderwerp</label>
+              <input type="text" id="cf-subject" name="subject" placeholder="Waarover wilt u spreken?">
+            </div>
+            <div class="form-group">
+              <label for="cf-message">Bericht</label>
+              <textarea id="cf-message" name="message" rows="5" placeholder="Schrijf uw bericht hier..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Verzend bericht</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- RIGHT: map -->
+      <div class="animate-on-scroll" style="transition-delay:.18s">
+        <div class="contact-map">
+          <!-- OpenStreetMap embed – geen API-sleutel nodig -->
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=4.4700%2C52.1450%2C4.5100%2C52.1800&layer=mapnik&marker=52.1600%2C4.4850"
+            width="100%" height="100%" style="border:0"
+            allowfullscreen=""
+            aria-label="Kaart naar Roekenpad 8, Leiden"></iframe>
+        </div>
+        <!-- directions link -->
+        <div class="animate-on-scroll" style="margin-top:20px;text-align:center;transition-delay:.25s">
+          <a href="https://maps.google.com/maps?q=Roekenpad+8,+2317KL+Leiden" target="_blank" rel="noopener" style="color:var(--clr-primary-lt);font-size:.9rem;font-weight:600">
+            Route openen in Google Maps →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><div class="logo"><div class="logo-icon">ACV</div><div class="logo-text">Unity &amp; Development<span>Afghan Cultural Association</span></div></div><p>We ondersteunen Afghan gemeenschap leden in de Leiden-regio door cultuur, onderwijs en sociale integratie.</p></div>
+      <div><h4>Snelle links</h4><ul><li><a href="over.html">Over Ons</a></li><li><a href="bestuur.html">Bestuur</a></li><li><a href="anbi.html">ANBI</a></li><li><a href="galerij.html">Galerij</a></li></ul></div>
+      <div><h4>Meer</h4><ul><li><a href="verslagen.html">Verslagen</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Contactgegevens</h4><ul><li>Roekenpad 8</li><li>2317KL Leiden</li><li>+31 6 23 98 4003</li><li>Op afspraak</li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2025 ACV Unity &amp; Development. Alle rechten voorbehouden.</span><span>RSIN: 851292677 &nbsp;|&nbsp; ANBI Erkend</span></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
